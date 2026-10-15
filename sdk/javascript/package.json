@@ -1,0 +1,29 @@
+{
+  "name": "shrink-client",
+  "version": "0.1.0",
+  "description": "Shorten URLs without an account or API key. GET and POST API, custom aliases, optional expiration, destination lookup and deletion. JavaScript, Python and Go SDKs.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "homepage": "https://shrink.site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skibid991/shrink.site.git",
+    "directory": "sdk/javascript"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE"
+  ]
+}
